@@ -1,0 +1,235 @@
+.kanit-thin {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .kanit-extralight {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .kanit-light {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .kanit-medium {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .kanit-semibold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .kanit-bold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .kanit-extrabold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .kanit-black {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .kanit-thin-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .kanit-extralight-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .kanit-light-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .kanit-regular-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .kanit-medium-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .kanit-semibold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .kanit-bold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .kanit-extrabold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .kanit-black-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+body{
+    margin: 0;
+    padding:0;
+    header{
+        padding: 30px 0;
+        .register{
+            @media (min-width:767px){
+                float: right;
+            }
+            a{
+                text-transform: uppercase;
+                background: #bd0004;
+                color:#fff;
+                padding:15px 30px;
+                display:block;
+                font-family: "Kanit", sans-serif;
+                font-weight: 600;
+                text-decoration: none;
+                span{
+                    transform:rotate(-30deg);
+                    display: inline-block;
+                    width: 24px;
+                    height: 24px;
+                    transition: .5s;
+                    position: relative;
+                    top: -3px;
+                }
+                &:hover{
+                    color:#fff;
+                    background: #2a2d36;
+                    span{
+                        transform:rotate(0);
+                        top: -3px;
+                    }
+                }
+            }
+           
+        }
+    }
+    main{
+        .banner{
+            h1{
+                font-family: "Kanit", sans-serif;
+                font-weight: 800;
+                color: #2a2d36;
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+                font-size: 70px;
+            }
+        }
+        .welcome{
+            padding:90px 0;
+            .banner-image{ text-align: center;}
+            h1{
+                font-family: "Kanit", sans-serif;
+                font-weight: 800;
+                color: #2a2d36;   
+                font-size:55px;
+                text-align:center;
+                margin-bottom: 60px;
+                span{
+                    color:#bd0004;
+                }
+            }
+        }
+        .classes{
+            img{ max-width:100%;}
+            .timing{
+                margin-bottom: 30px;
+            }
+            .timing-wrapper{
+                position: relative;
+                top:50%;
+                transform: translateY(-50%);
+            }
+            h1{
+                font-family: "Kanit", sans-serif;
+                font-weight: 800;
+                color: #2a2d36;   
+                font-size:55px;
+                text-align:center;
+                margin-bottom: 60px;
+                span{
+                    color:#bd0004;
+                }
+            }
+            h2{
+                font-family: "Kanit", sans-serif;
+                font-weight: 800;
+                color: #2a2d36;   
+                position: relative;
+                padding-top: 20px;
+                font-style: italic;
+                span{
+                    position: absolute;
+                    background: #a8ea06;
+                    font-size: 12px;
+                    font-weight: 500;
+                    padding: 3px 9px;
+                    top: 0;
+                }
+            }
+            .grayBg{
+                color:#fff;
+                background: #3d3d3d;
+                padding:30px;
+                padding-top:50px;
+                span{
+                    top: 30px;
+                }
+            }
+            h4{
+                font-size: 18px;
+                font-family: "Kanit", sans-serif;
+                font-weight: 600;
+                span{
+                    display: inline-block;
+                    width: 24px;
+                    height: 24px;
+                    position: relative;
+                    top: -3px;
+                }
+            }
+        }
+    }
+}
